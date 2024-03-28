@@ -1,0 +1,148 @@
+/*.box {
+    height: 40rem;
+    width:30rem;
+    background-image: url(./assests/picc.jpg);
+    border-radius: 5%;
+    filter: blur(3px);
+    opacity: 60%;
+    position: relative;
+}*/
+
+body {
+    background-color: #f96346;
+    line-height: 50px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100vh;
+    
+    
+}
+
+.sign {
+    height: 38rem;
+    width: 29rem;
+    background-color: #fef0e6;
+    border-radius: 5%;
+    box-shadow: #fbfafa 5px 5px;
+    position: relative;
+    
+}
+ .text {
+    position: absolute;
+    top: 150px;
+    
+ }
+
+ h1 {
+    font-family: 'Maven Pro', sans-serif;
+ }
+    
+ input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px none #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-image: url(./assests/person.svg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    box-shadow: #fbfafa 2px 2px;
+  }
+
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px none #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-image: url(./assests/envelope-open.svg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    box-shadow: #fbfafa 2px 2px;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px none #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-image: url(./assests/shield-lock.svg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    box-shadow: #fbfafa2px 2px;
+  }
+  
+
+p {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: lighter;
+    display: inline;
+}
+
+input {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+label {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.check {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.read {
+    font-size: small;
+}
+
+a:link {
+ color:  #8C5196ff;
+ text-decoration: none;
+}
+a:visited {
+ color: #D80F06ff;
+ text-decoration: none;
+}
+a:hover {
+    color: #FEB302ff;
+    text-decoration: none;
+}
+a:active {
+  color: #E65450ff;
+  text-decoration: none;
+}
+
+.button {
+    
+    background-color: #fef0e6;
+    border: solid;
+    color: #f96346;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 9px;
+    
+  }
+
+  .button:hover {
+    box-shadow: 0 2px 6px 0 #E65450ff, 0 2px 6px 0 rgba(0,0,0,0.15);
+  }

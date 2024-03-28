@@ -1,0 +1,160 @@
+body{
+  background-color: #ffeca8;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.backgroundpic{
+  width: 50%;
+  opacity: 30%;  
+}
+.picone{display: flex;
+  flex-direction: row;
+  justify-content: center;}
+  
+
+.card{
+ height: 50%;
+ width: 50%;
+ position: absolute;
+ background-color: #ffe06f;
+ top: 25%;
+ left: 25%;
+ z-index: 1;
+ box-shadow: 3px 3px 9px black;
+ opacity: 80%;
+}
+.bg{
+  height: 50%;
+  width:20% ;
+  position: absolute;
+  background-color: white;
+  top: 25%;
+  left: 25%;
+  z-index: 2;
+}
+.theImg {
+  height:  80%;
+  position: absolute;
+  top: 7%;
+  left: 23%;
+  z-index: 3;
+}
+.product-name{
+  height: 10%;
+  width: 30%;
+  position: absolute;
+  background-color: white;
+  top: 30%;
+  left: 43%;
+  z-index: 4;
+  box-shadow: 1px 1px 9px black;
+  /*display*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: larger;
+  font-weight: bold;
+}
+.text{
+  margin: 0;
+  padding: 25px;
+}
+.card-info{
+  height: 17%;
+  width: 30%;
+  position: absolute;
+  background-color: white;
+  top: 45%;
+  left: 43%;
+  z-index: 4;
+  box-shadow: 1px 1px 9px black;
+  /*display*/
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.full{
+  padding: 6px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+.remember{
+  position: absolute;
+  top: 67%;
+  left: 47%;
+  z-index: 4;
+  font-size: small;
+}
+#cardinfo{
+  position: absolute;
+  margin-left: -18px;
+  top: -1px;}
+  
+.checkout{
+  position: absolute;
+  top: 65%;
+  left: 63%;
+  z-index: 4;
+  background-color:#E70012;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 35%;
+  width: 10%;
+}
+.visa{
+  position:absolute;
+  top: 46%;
+  left: 56%;
+  z-index: 5;
+  width: 50px;
+}
+#num, #fname {
+  width: 235px;
+}
+
+#MMYY, #cvc{
+  width: 60%;
+  margin-left: 25px;
+}
+#fname, #cvc{
+  margin-top: -25px;
+}
+#num, #MMYY{
+  margin-top: 21px;
+}
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid #e7001322;
+  
+}
+input[type=number] {
+  border: none;
+  border-bottom: 2px solid #e7001322;
+  
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number]:focus {
+  border: none;
+  border-bottom: 2px solid #E70012;
+  outline: none;
+}
+input[type=text]:focus {
+  border: none;
+  border-bottom: 2px solid #E70012;
+  outline: none;
+}
+::placeholder{
+  color: rgba(0, 0, 0, 0.368);
+  font-size:medium
+}
+

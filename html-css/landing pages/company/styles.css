@@ -1,0 +1,247 @@
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: #3E54AC;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: #FFACB7;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #6886C5;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+body {
+    background-color: #F9F9F9;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+span {
+    color: #E966A0;
+}
+
+.office {
+    height: 200px;
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    text-justify: auto;
+    object-fit: cover;
+    
+}
+
+.workplace {
+    height: 200px;
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    text-justify: auto;
+    object-fit: cover;
+}
+
+.leftwhole {
+    position: fixed;
+    right: 700px;
+    left: 10px;
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: 50px;
+
+    text-justify: auto;
+    object-fit: cover;
+   
+    
+}
+
+.rightwhole {
+    position:fixed;
+    left: 700px;
+    right: 10px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 50px;
+
+    text-justify: auto;
+    object-fit: cover;
+    
+}
+
+.wholewhole {
+    display: inline-block;
+
+    text-justify: auto;
+    /*
+    object-fit: cover;*/
+}
+
+p {
+    display: inline;
+    
+}
+
+.footer {
+  display: block;
+  text-align: right;
+  position: absolute;
+  top: 95%;
+  left: 85%;
+}
+
+
+
+@media (max-width: 800px) {
+    .logo {
+      height: 50px;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 5px;
+      object-fit: contain;
+    }
+  
+    body {
+        display: block;
+       
+        margin: 5%;
+        text-align: center;
+        
+        object-fit: contain;
+        
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+    }
+
+    img {
+    
+        display: flex;
+        
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 5%;
+        object-fit: contain;
+        
+    }
+
+    h2 {display: block;
+        margin-top: 220px;
+        margin-left: 10px;
+
+        position: relative;
+
+        text-align: center;
+        margin-bottom: 5px;
+        object-fit: contain;
+
+   
+    }
+ 
+  /*
+  main {
+    flex: 1;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    position: static;
+    align-items: center;
+    object-fit:fill;
+  }
+  */
+
+  p {
+    
+    display: flex;
+    flex-direction: inherit;
+    
+    text-align: center;
+    
+    
+    margin-bottom: 5px;
+    object-fit: contain;
+    
+  }
+
+
+  div {
+    margin: 5px;
+    display: block;
+    object-fit: contain;
+    text-align: justify;
+    position: static;
+    =
+  }
+
+  .office {
+    
+    
+  
+    margin: 10px;
+    position:absolute;
+    align-self: center;
+
+    display: inline;
+    object-fit: cover;
+    width: 5%;
+  }
+
+  .workplace {
+    
+   
+    /*
+    margin-left: 10px;*/
+    position: static;
+    height: 50;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    margin-bottom: 5px;
+    object-fit: contain;
+    
+  }
+
+.main {
+    display: block;
+
+}
+
+.wholewhole {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    align-items: center;
+    display: inline;
+    object-fit: cover;
+}
+    
+}
