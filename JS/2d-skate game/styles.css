@@ -5,18 +5,17 @@ body{
 
 .css-road{
   z-index: 1;
-  position: relative;
-  top: 480px;
-  margin-bottom: 0px;
-  left: -10px;
+  left: 3px;
   width: 100vw;
+  position:fixed;
+  bottom:0px;
 }
 
 .css-conan{
   z-index: 2;
   height: 250px;
   position: relative;
-  top: 200px;
+  top: 350px;
 
 }
 
@@ -45,7 +44,7 @@ body{
 .css-jin{
   z-index: 3;
   position: relative;
-  top: 20px;
+  top: 150px;
   height: 150px;
 
   animation: jin 1s infinite linear;
